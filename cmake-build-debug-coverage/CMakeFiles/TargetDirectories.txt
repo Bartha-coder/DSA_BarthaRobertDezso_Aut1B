@@ -1,0 +1,3 @@
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug-coverage/CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
