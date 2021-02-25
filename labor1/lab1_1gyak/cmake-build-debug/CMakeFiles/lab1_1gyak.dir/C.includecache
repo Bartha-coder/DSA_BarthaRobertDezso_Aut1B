@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor1/lab1_1gyak/main.c
+stdio.h
+-
+max_min.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor1/lab1_1gyak/max_min.h
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor1/lab1_1gyak/max_min.h
+
