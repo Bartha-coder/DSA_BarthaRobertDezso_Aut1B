@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\masodikhazi.dir/objects.a
-C:\OJI\Codeblocks\mingw64telepitett\bin\ar.exe cr CMakeFiles\masodikhazi.dir/objects.a @CMakeFiles\masodikhazi.dir\objects1.rsp
-C:\OJI\Codeblocks\mingw64telepitett\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\masodikhazi.dir/objects.a -Wl,--no-whole-archive  -o masodikhazi.exe -Wl,--out-implib,libmasodikhazi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\masodikhazi.dir\linklibs.rsp
