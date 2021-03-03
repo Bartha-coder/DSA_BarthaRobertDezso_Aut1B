@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\forditott_sorrend.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\forditott_sorrend.dir/objects.a @CMakeFiles\forditott_sorrend.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\forditott_sorrend.dir/objects.a -Wl,--no-whole-archive  -o forditott_sorrend.exe -Wl,--out-implib,libforditott_sorrend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\forditott_sorrend.dir\linklibs.rsp

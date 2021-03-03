@@ -1,0 +1,3 @@
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor2/forditott_sorrend/cmake-build-debug/CMakeFiles/forditott_sorrend.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor2/forditott_sorrend/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor2/forditott_sorrend/cmake-build-debug/CMakeFiles/rebuild_cache.dir
