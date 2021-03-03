@@ -3,20 +3,30 @@
 //
 #include "max_min.h"
 
-int maxi(int a, int b, int c) {
-    scanf("%i%i%i",&a,&b,&c);
-    if(a>b && a>c){return ("Az elso a legnagyobb %i,a)};
-        else if(b>a && b>c){return ("Az masodik a legnagyobb %i,b)};
-            else if(c>a && c>b){return ("Az harmadik a legnagyobb %i,c)};
-
+int maxi(int n, int szam, int min) {
+   scanf("%i",&n);
+   max=szam;
+   scanf("%i",&szam);
+   for(int i=2;i<=n;++i)
+   {
+       scanf("%i",&szam);
+       if(szam>max){
+           max=szam;}
+   }
+  // printf("%i",max);
+  return max;
 }
 
-int mini(int a, int b, int c) {
-    scanf("%i%i%i",&a,&b,&c);
-    if(a<b && a<c){return ("Az elso a legkisebb %i,a)};
-        else if(b<a && b<c){return ("Az masodik a legkisebb %i,b)};
-            else if(c<a && c<b){return ("Az harmadik a legkisebb %i,c)};
-
+int mini(int n, int szam, int min) {
+    scanf("%i",&n);
+    min=szam;
+    scanf("%i",&szam);
+    for(int i=2;i<=n;++i)
+    {
+        scanf("%i",&szam);
+        if(szam<min){
+            min=szam;}
+    }
+    //printf("%i",min);
+    return min;
 }
-
-
