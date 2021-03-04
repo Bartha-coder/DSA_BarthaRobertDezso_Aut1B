@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\liniaris_kereses.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\liniaris_kereses.dir/objects.a @CMakeFiles\liniaris_kereses.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\liniaris_kereses.dir/objects.a -Wl,--no-whole-archive  -o liniaris_kereses.exe -Wl,--out-implib,libliniaris_kereses.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\liniaris_kereses.dir\linklibs.rsp

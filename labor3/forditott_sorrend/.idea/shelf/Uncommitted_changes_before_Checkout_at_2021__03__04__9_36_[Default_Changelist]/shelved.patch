@@ -1,0 +1,162 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1614842409511)
++++ b/.idea/modules.xml	(date 1614842409511)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/forditott_sorrend.iml" filepath="$PROJECT_DIR$/.idea/forditott_sorrend.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/forditott_sorrend.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/forditott_sorrend.iml b/.idea/forditott_sorrend.iml
+new file mode 100644
+--- /dev/null	(date 1614842409488)
++++ b/.idea/forditott_sorrend.iml	(date 1614842409488)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module classpath="CMake" type="CPP_MODULE" version="4" />
+\ No newline at end of file
+Index: ../../labor2/liniaris_kereses/linearis_kereses.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor2/liniaris_kereses/linearis_kereses.h b/../../labor2/liniaris_kereses/linearis_kereses.h
+new file mode 100644
+--- /dev/null	(date 1614839832925)
++++ b/../../labor2/liniaris_kereses/linearis_kereses.h	(date 1614839832925)
+@@ -0,0 +1,10 @@
++//
++// Created by Bartha on 2021. 03. 04..
++//
++
++#ifndef LINIARIS_KERESES_LINEARIS_KERESES_H
++#define LINIARIS_KERESES_LINEARIS_KERESES_H
++
++int linearSearch(int a[],int size,int search,int *counter);
++
++#endif //LINIARIS_KERESES_LINEARIS_KERESES_H
+Index: ../../labor2/liniaris_kereses/linearis_kereses.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor2/liniaris_kereses/linearis_kereses.c b/../../labor2/liniaris_kereses/linearis_kereses.c
+new file mode 100644
+--- /dev/null	(date 1614839832910)
++++ b/../../labor2/liniaris_kereses/linearis_kereses.c	(date 1614839832910)
+@@ -0,0 +1,19 @@
++//
++// Created by Bartha on 2021. 03. 04..
++//
++
++#include "linearis_kereses.h"
++
++int linearSearch(int a[],int size,int search,int *counter)
++{
++    int i;
++    for(i=0;i<size ;++i)
++    {
++        *counter++;
++        if(a[i]==search)
++        {
++            return i;
++        }
++    }
++    return -1;
++}
+\ No newline at end of file
+Index: ../../labor2/liniaris_kereses/.idea/liniaris_kereses.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor2/liniaris_kereses/.idea/liniaris_kereses.iml b/../../labor2/liniaris_kereses/.idea/liniaris_kereses.iml
+new file mode 100644
+--- /dev/null	(date 1614839491582)
++++ b/../../labor2/liniaris_kereses/.idea/liniaris_kereses.iml	(date 1614839491582)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module classpath="CMake" type="CPP_MODULE" version="4" />
+\ No newline at end of file
+Index: ../../labor2/liniaris_kereses/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor2/liniaris_kereses/.idea/.gitignore b/../../labor2/liniaris_kereses/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1614838289402)
++++ b/../../labor2/liniaris_kereses/.idea/.gitignore	(date 1614838289402)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/../../../../../../../../../../../:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\labor2\liniaris_kereses\.idea/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1614842409563)
++++ b/.idea/vcs.xml	(date 1614842409563)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1614842409545)
++++ b/.idea/misc.xml	(date 1614842409545)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
++</project>
+\ No newline at end of file
+Index: ../../labor2/forditott_sorrend/forditott.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by Bartha on 2021. 03. 03..\r\n//\r\n\r\n#ifndef FORDITOTT_SORREND_FORDITOTT_H\r\n#define FORDITOTT_SORREND_FORDITOTT_H\r\n\r\nint forditott();\r\n#endif //FORDITOTT_SORREND_FORDITOTT_H\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor2/forditott_sorrend/forditott.h b/../../labor2/forditott_sorrend/forditott.h
+--- a/../../labor2/forditott_sorrend/forditott.h	(revision f5da95d2d22e011aaf0912feaa4286151d13abee)
++++ b/../../labor2/forditott_sorrend/forditott.h	(date 1614840089869)
+@@ -5,5 +5,5 @@
+ #ifndef FORDITOTT_SORREND_FORDITOTT_H
+ #define FORDITOTT_SORREND_FORDITOTT_H
+ 
+-int forditott();
++int forditott(int n);
+ #endif //FORDITOTT_SORREND_FORDITOTT_H
