@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ismetles.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\ismetles.dir/objects.a @CMakeFiles\ismetles.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\ismetles.dir/objects.a -Wl,--no-whole-archive  -o ismetles.exe -Wl,--out-implib,libismetles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ismetles.dir\linklibs.rsp
