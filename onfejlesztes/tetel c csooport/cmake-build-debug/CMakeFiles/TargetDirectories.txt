@@ -1,0 +1,3 @@
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/onfejlesztes/tetel c csooport/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/onfejlesztes/tetel c csooport/cmake-build-debug/CMakeFiles/tetel_c_csooport.dir
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/onfejlesztes/tetel c csooport/cmake-build-debug/CMakeFiles/edit_cache.dir
