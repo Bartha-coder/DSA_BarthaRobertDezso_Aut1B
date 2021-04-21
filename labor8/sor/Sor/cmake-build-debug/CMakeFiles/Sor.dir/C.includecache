@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/Sor.h
+stdbool.h
+-
+
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/main.c
+stdio.h
+-
+malloc.h
+-
+Sor.h
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/Sor.h
+

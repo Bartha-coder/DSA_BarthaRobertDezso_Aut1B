@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gyak8.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\gyak8.dir/objects.a @CMakeFiles\gyak8.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\gyak8.dir/objects.a -Wl,--no-whole-archive  -o gyak8.exe -Wl,--out-implib,libgyak8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gyak8.dir\linklibs.rsp

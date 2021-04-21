@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor8/gyak8/main.c
+stdio.h
+-
+malloc.h
+-
+sor.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor8/gyak8/sor.h
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/labor8/gyak8/sor.h
+stdbool.h
+-
+

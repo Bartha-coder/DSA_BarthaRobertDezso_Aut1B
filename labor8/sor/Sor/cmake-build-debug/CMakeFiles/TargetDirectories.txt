@@ -1,0 +1,3 @@
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/cmake-build-debug/CMakeFiles/Sor.dir
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Github/DSA_lab/DSA_BalazsB-lintBern-rd_AUTIB/Onfejlesztes/Sor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
