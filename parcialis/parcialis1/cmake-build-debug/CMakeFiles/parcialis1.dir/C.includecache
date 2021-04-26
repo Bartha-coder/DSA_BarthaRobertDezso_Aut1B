@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/tomb.c
+stdio.h
+-
+malloc.h
+-
+tomb.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/tomb.h
+time.h
+-
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/tomb.h
+
