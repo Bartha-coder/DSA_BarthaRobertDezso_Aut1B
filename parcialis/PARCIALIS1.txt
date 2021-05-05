@@ -1,0 +1,147 @@
+MAINNNN
+
+
+#include <stdio.h>
+#include "tomb.h"
+
+int main() {
+
+    A *aray = createArray(50);
+    readArray("be.txt", &aray);
+    //fillArray(aray, aray->c, 0, 50);
+    printArray(aray);
+    printf("\n");
+   printf( "%.2f\n" ,atlagokNegyzeteTomb( aray));
+
+
+    return 0;
+}
+
+
+
+
+TOMB.CCCCCC
+
+
+#include <stdio.h>
+#include <malloc.h>
+#include "tomb.h"
+#include <time.h>
+
+///Ez a függvény lefoglal egy A adatstruktúrának helyet a memóriában
+
+A *createArray(int dimension) {
+    ///lefoglalja a helyet
+    A *tmp = (A *) malloc(sizeof(dimension));
+
+    ///hibaellenorzes,hogy sikeres volt-e a helyfoglalas
+    if (!tmp) {
+        printf("Could not allocate memory!");
+        return NULL;
+    }
+
+    ///tmp-nek ertekadasa
+    tmp->c = dimension;
+    tmp->array = (int *) malloc(dimension * sizeof(int));
+
+    ///hibaellenorzes
+    if (!tmp->array) {
+        printf("Could not allocate array!");
+
+        ///memoriafelszabaditas
+        free(tmp);
+        return NULL;
+    }
+
+    return tmp;
+}
+
+
+///Ez a függvény beolvas egy tomböt egy fájlból
+
+void readArray(const char *fileName, A **aray) {
+    ///fajl megnyitas
+    FILE *fin = fopen(fileName, "rt");
+
+    ///hibakezeles
+    if (!fin) {
+        printf("Could not open file! (%s)", fileName);
+        return;
+    }
+    ///valtozo
+    int n;
+    fscanf(fin, "%i", &n);
+
+    A *buffer = createArray(n);
+
+    if (!buffer) {
+        printf("Could not allocate buffer!");
+        fclose(fin);
+        free(fin);
+        free(buffer);
+        return;
+    }
+    ///feltolti elemmekkel a tomobot
+    for (int i = 0; i < buffer->c; i++)
+        fscanf(fin, "%i", &buffer->array[i]);
+
+    *aray = buffer;
+    ///befezi az olvasast
+    fclose(fin);
+}
+
+///random szamokkal tolti fel a tombot
+/*void fillArray(A *array, int dimension, int first, int last) {
+    srand(time(NULL));
+    for (int i = 0; i < dimension; i++)
+        array->array[i] = (rand() % last + 1) + first;
+}
+*/
+ ///Ez a függvény kiírja a tömböt a standard outputra vagyis a kepernyore minden masodik elemet
+
+void printArray(A *aray) {
+    printf("Tomb: ");
+    for (int i = 0; i < aray->c; i=i+2)
+        printf("%i ", aray->array[i]);
+    printf("\n");
+}
+
+
+ /// Visszatéríti a sor minden masodik elem atlagat
+
+float atlagokNegyzeteTomb(A* aray) {
+    float atlag = 0;
+
+    for(int i = 0; i < aray->c; i=i+2)
+        atlag += aray->array[i];
+
+    return atlag;
+}
+
+
+
+TOMB.HHHH
+
+
+
+#ifndef PARCIALIS1_TOMB_H
+#define PARCIALIS1_TOMB_H
+
+typedef struct {
+     int c;
+     int *array;
+} A;
+
+A *createArray(int dimension);
+
+void readArray(const char *fileName, A **aray);
+
+//void fillArray(A *array, int dimension, int first, int last);
+
+float atlagokNegyzeteTomb(A *array);
+
+void printArray(A *aray);
+
+
+
+
