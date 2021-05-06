@@ -15,7 +15,7 @@ int main() {
     }
     printf("Inorder: ");
     inorder(tree);
-   /* printf("\nPreorder: ");
+    printf("\nPreorder: ");
     preorder(tree);
     printf("\nPostorder: ");
     postorder(tree);
@@ -27,7 +27,7 @@ int main() {
         printf("Sikertelen lefoglalas");
         return 0;
     }
-
+/*
     printf("\nAdott ertektol kezdodo fa: ");
     preorder(facska);
 */
