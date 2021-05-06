@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf84638-c3c6-4d7a-88e8-a9e3f9623618" name="Default Changelist" comment="labor 11 semmmi" />
+    <list default="true" id="aaf84638-c3c6-4d7a-88e8-a9e3f9623618" name="Default Changelist" comment="labor 11 semmmi2">
+      <change afterPath="$PROJECT_DIR$/../../parcialis/parcialis1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../parcialis/parcialis2.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -61,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620276702370</updated>
       <workItem from="1620276704203" duration="586000" />
+      <workItem from="1620279293179" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="labor 11 semmmi">
       <created>1620277278847</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620277278847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="labor 11 semmmi2">
+      <created>1620279334027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620279334027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,15 +90,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="gyakorlat_10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="labor 11 semmmi" />
-    <option name="LAST_COMMIT_MESSAGE" value="labor 11 semmmi" />
+    <MESSAGE value="labor 11 semmmi2" />
+    <option name="LAST_COMMIT_MESSAGE" value="labor 11 semmmi2" />
   </component>
 </project>
