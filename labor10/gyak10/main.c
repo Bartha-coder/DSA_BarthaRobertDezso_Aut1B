@@ -8,8 +8,8 @@ int main() {
     tree = NULL;
     FILE * f = fopen("fak.txt","r");
     //állománykezelés
-    int x;
-    while(fscanf(f,"%d", &x)!=EOF)
+    char x[20];
+    while(fscanf(f,"%s", x)!=EOF)
     {
         insert(&tree, x);
     }
@@ -27,10 +27,10 @@ int main() {
         printf("Sikertelen lefoglalas");
         return 0;
     }
-/*
-    printf("\nAdott ertektol kezdodo fa: ");
-    preorder(facska);
-*/
+
+   /* printf("\nAdott ertektol kezdodo fa: ");
+    preorder(facska);*/
+
     return 0;
 
 }

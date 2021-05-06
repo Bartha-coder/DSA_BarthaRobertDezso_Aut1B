@@ -3,33 +3,40 @@
 //
 
 
+#include <string.h>
 #include "function.h"
 
 
-root *create(int a) {
+root *create(char a[20]) {
     root *ag;
     ag =(root *)(malloc(sizeof(root)));
     if(!ag){
         printf("SIKERTELEN LEFOGLALAS!");
         return 0;
     }
-    ag->adat = a;
+    strcpy(ag->adat,a);//ket karakterlanc megfeleltetese egymasnak
     ag->jobb = NULL;
     ag->bal = NULL;
     return ag;
 }
 
-void insert(root **fa, int a) {
+void insert(root **fa, char a[20]) {
 
     if((*fa) == NULL){
         (*fa) = create(a);
     }
     else{
-        if((*fa)->adat>a)
+        if(strcmp((*fa)->adat,a) > 0)
         {
+            ///ide kerul egy feltetel(pl hogyha a betuvel kezdodik)
             insert(&((*fa)->bal),a);
         }
-        else insert(&((*fa)->jobb),a);
+        else
+            {
+            ///ide kerul egy feltetel(pl hogyha a betuvel kezdodik)
+            insert(&((*fa)->jobb),a);
+
+        }
     }
 }
 
@@ -37,7 +44,7 @@ void inorder(root *fa) {
 
     if(fa->bal)
         inorder(fa->bal);
-    printf("%3d",fa->adat);
+    printf("%3s  ",fa->adat);
     if(fa->jobb)
         inorder(fa->jobb);
 }
@@ -45,7 +52,7 @@ void inorder(root *fa) {
 
 void preorder(root *fa)
 {
-    printf("%3d ", fa->adat);
+    printf("%3s ", fa->adat);
     if(fa->bal)
         preorder(fa->bal);
     if(fa->jobb)
@@ -58,6 +65,6 @@ void postorder(root *fa)
         postorder(fa->bal);
     if(fa->jobb)
         postorder(fa->jobb);
-    printf("%3d ", fa->adat);
+    printf("%3s ", fa->adat);
 }
 

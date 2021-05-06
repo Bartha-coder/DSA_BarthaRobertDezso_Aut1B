@@ -8,17 +8,17 @@
 #include <stdio.h>
 
 typedef struct root{
-    int adat;
+    char adat[20];
     struct root *bal;
     struct root *jobb;
 }root;
 
 
 ///helyet foglal a memoriaban egy elemnek, feltolti az adat mezot
-root *create(int a);
+root *create(char a[20]);
 
 ///beszur a megfelelo helyre a csomopontot
-void insert(root **fa, int a);
+void insert(root **fa, char a[20]);
 
 ///kiiras bal-gyoker-jobb
 void inorder(root *fa);
