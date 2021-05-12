@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis2/dinamikus sor.h
-
-C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis2/main.c
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis2/dinamikus sor.c
+malloc.h
+-
 stdio.h
 -
+limits.h
+-
+stdbool.h
+-
 dinamikus sor.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis2/dinamikus sor.h
+
 C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis2/dinamikus sor.h
 

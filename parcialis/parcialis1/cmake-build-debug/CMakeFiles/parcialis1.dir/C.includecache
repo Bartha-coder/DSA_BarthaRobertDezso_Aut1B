@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/main.c
+stdio.h
+-
+tomb.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/tomb.h
+
 C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/parcialis/parcialis1/tomb.c
 stdio.h
 -

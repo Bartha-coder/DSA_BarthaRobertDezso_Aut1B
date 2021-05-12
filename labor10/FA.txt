@@ -1,0 +1,146 @@
+//
+// Created by Bartha on 2021. 04. 29..
+//
+
+#ifndef GYAK10_FUNCTION_H
+#define GYAK10_FUNCTION_H
+#include <malloc.h>
+#include <stdio.h>
+
+typedef struct root{
+    int adat;
+    struct root *bal;
+    struct root *jobb;
+}root;
+
+
+///helyet foglal a memoriaban egy elemnek, feltolti az adat mezot
+root *create(int a);
+
+///beszur a megfelelo helyre a csomopontot
+void insert(root **fa, int a);
+
+///kiiras bal-gyoker-jobb
+void inorder(root *fa);
+
+///kiiras gyoker-bal-jobb
+void preorder(root *fa);
+
+///kiiras bal-jobb-gyoker
+void postorder(root *fa);
+
+#endif //GYAK10_FUNCTION_H
+
+
+
+
+
+#include <stdio.h>
+#include "function.h"
+
+int main() {
+
+    root *tree;
+    //tree = create(10);
+    tree = NULL;
+    FILE * f = fopen("fak.txt","r");
+    //állománykezelés
+    int x;
+    while(fscanf(f,"%d", &x)!=EOF)
+    {
+        insert(&tree, x);
+    }
+    printf("Inorder: ");
+    inorder(tree);
+    printf("\nPreorder: ");
+    preorder(tree);
+    printf("\nPostorder: ");
+    postorder(tree);
+    int y = 3;
+    root *facska;
+    facska = (root*)malloc(sizeof(root));
+    if(!facska)
+    {
+        printf("Sikertelen lefoglalas");
+        return 0;
+    }
+
+   /* printf("\nAdott ertektol kezdodo fa: ");
+    preorder(facska);*/
+
+    return 0;
+
+}
+
+
+
+//
+// Created by Bartha on 2021. 04. 29..
+//
+
+
+#include "function.h"
+
+
+root *create(int a) {
+    root *ag;
+    ag =(root *)(malloc(sizeof(root)));
+    if(!ag){
+        printf("SIKERTELEN LEFOGLALAS!");
+        return 0;
+    }
+    ag->adat = a;
+    ag->jobb = NULL;
+    ag->bal = NULL;
+    return ag;
+}
+
+void insert(root **fa, int a) {
+
+    if((*fa) == NULL){
+        (*fa) = create(a);
+    }
+    else{
+        if((*fa)->adat>a)
+        {
+            insert(&((*fa)->bal),a);
+        }
+        else insert(&((*fa)->jobb),a);
+    }
+}
+
+void inorder(root *fa) {
+
+    if(fa->bal)
+        inorder(fa->bal);
+    printf("%3d",fa->adat);
+    if(fa->jobb)
+        inorder(fa->jobb);
+}
+
+
+void preorder(root *fa)
+{
+    printf("%3d ", fa->adat);
+    if(fa->bal)
+        preorder(fa->bal);
+    if(fa->jobb)
+        preorder(fa->jobb);
+}
+
+void postorder(root *fa)
+{
+    if(fa->bal)
+        postorder(fa->bal);
+    if(fa->jobb)
+        postorder(fa->jobb);
+    printf("%3d ", fa->adat);
+}
+
+
+
+
+
+
+
+
