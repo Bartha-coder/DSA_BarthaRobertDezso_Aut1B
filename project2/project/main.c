@@ -28,23 +28,24 @@ int main() {
          return 0;
      }
 
-    printf("\n");
+   /*  printf("\n");
+
      printf("\nA keresett elem: ");
-     printf("%i",keres(tree,1));
+     keres(tree,1);
 
 
     printf("\nAz elemek szama: ");
-    printf("%i",elemszam(tree));
+    elemszam(tree);
+
+
+    beszur(tree,1);
 
     printf("\n");
-    printf("%i",beszur(tree,3));
+    Legkisebb(tree);
 
     printf("\n");
-    printf("%i",Legkisebb(tree));
-
-    printf("\n");
-    printf("%i",Legnagyobb(tree));
-
+    Legnagyobb(tree);
+    */
     return 0;
 
 }

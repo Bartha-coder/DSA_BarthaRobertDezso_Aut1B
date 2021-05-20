@@ -33,15 +33,15 @@ void postorder(root *fa);
 root *keres(root *fa, int adat);
 
 ///beszuras es egyebek
-root  *beszur(root *gyoker, int adat);
+void beszur(root *gyoker, int adat);
 
 ///meghataroza hany eleme van a fanak
 int elemszam(root *fa);
 
 ///legkisebb elem meghatarozasa
-root *Legkisebb(root *fa)
+void Legkisebb(root *fa)
 
 ///legnagyobb elem meghatarozasa
-root *Legnagyobb(root *fa )
+void Legnagyobb(root *fa )
 
 #endif //PROJECT_BINARIS_H

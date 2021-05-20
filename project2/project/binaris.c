@@ -2,6 +2,18 @@
 // Created by Bartha on 2021. 05. 12..
 //
 
+///ÉTTERMI FOGLALÁS
+
+/*
+ * ASZTAL FOGLALÁSOKAT LEHET ITT TENNI EGY NAPRA.
+AZ ÉTTEREM 9.00-TÓL 22.00-IG VAN NYITVA.
+EZEN INTERVALUMON LEHET ASZTALFOGLALÁSOKAT KÉSZÍTENI.
+MOST MIVEL COVID VAN A ÉTTERMEKBEN NEM TARTOZKODHAT CSUPAN 15 SZEMÉLY, AZT A SZÁMOT NEM LEHET MEGHALADNI
+ÉS CSAK ASZTALFOGLALÁSSAL LEHETSÉGES A FOGYASZTÁS.
+MINDEN FOGLALÁS KÖZÖTT MINIMUM 1 ÓRA EL KELL TELJEN.
+1 ÓRÁT LEHET MAXIMUM AZ ÉTTEREMBEN TÖLTENI, TEHÁT EZT NEM LEHET MEGHALADNI
+
+ */
 
 #include <stdbool.h>
 
@@ -62,7 +74,7 @@ void postorder(root *fa)
     printf("%3d ", fa->adat);
 }
 
-root  *beszur(root *fa, int adat) {
+void beszur(root *fa, int adat) {
     if (fa == NULL) {                        /* üres? */
         root *uj = (root*) malloc(sizeof(root));
         uj->bal = uj->jobb = NULL;
@@ -94,7 +106,7 @@ int elemszam(root *fa) {
 }
 
 
-root *Legkisebb(root *fa) {
+void Legkisebb(root *fa) {
         root *p= fa;
         while( p->bal!=NULL){
         p=p->bal;
@@ -103,7 +115,7 @@ root *Legkisebb(root *fa) {
 }
 
 
-root *Legnagyobb(root *fa ) {
+void Legnagyobb(root *fa ) {
     root *p = fa;
     while (p->jobb != NULL) {
         p = p->jobb;

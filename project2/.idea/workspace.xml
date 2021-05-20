@@ -12,6 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc86f0c-6245-49c2-960b-9af5e388845e" name="Default Changelist" comment="...">
+      <change afterPath="$PROJECT_DIR$/binaris.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gyakorlat12/labor12/.idea/labor12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gyakorlat12/labor12/.idea/labor12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/binaris.c" beforeDir="false" afterPath="$PROJECT_DIR$/project/binaris.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/binaris.h" beforeDir="false" afterPath="$PROJECT_DIR$/project/binaris.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/project/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +55,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DSA_BarthaRobertDezso_Aut1B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DSA_BarthaRobertDezso_Aut1B" TARGET_NAME="DSA_BarthaRobertDezso_Aut1B" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DSA_BarthaRobertDezso_Aut1B" RUN_TARGET_NAME="DSA_BarthaRobertDezso_Aut1B">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -63,6 +83,7 @@
       <workItem from="1621487022289" duration="20000" />
       <workItem from="1621487253133" duration="198000" />
       <workItem from="1621487565276" duration="22000" />
+      <workItem from="1621487908360" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1621487578879</created>
