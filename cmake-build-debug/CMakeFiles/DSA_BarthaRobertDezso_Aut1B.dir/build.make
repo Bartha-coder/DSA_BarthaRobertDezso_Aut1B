@@ -79,15 +79,15 @@ include CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/flags.make
 CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.obj: CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/flags.make
 CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.obj"
-	C:\OJI\Codeblocks\mingw64telepitett\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.obj   -c C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.obj   -c C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c
 
 CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.i"
-	C:\OJI\Codeblocks\mingw64telepitett\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c > CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.i
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c > CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.i
 
 CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_BarthaRobertDezso_Aut1B.dir/main.c.s"
-	C:\OJI\Codeblocks\mingw64telepitett\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c -o CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.s
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dell\Desktop\Egyetem\Tantargyak\Adatszerkezetek_es_algoritmusok\DSA_BarthaRobertDezso_Aut1B\main.c -o CMakeFiles\DSA_BarthaRobertDezso_Aut1B.dir\main.c.s
 
 # Object files for target DSA_BarthaRobertDezso_Aut1B
 DSA_BarthaRobertDezso_Aut1B_OBJECTS = \

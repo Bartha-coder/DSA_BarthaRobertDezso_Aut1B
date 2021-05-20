@@ -11,10 +11,10 @@
 				<Option working_dir="C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSA_BarthaRobertDezso_Aut1B">
@@ -24,16 +24,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_BarthaRobertDezso_Aut1B"/>
-					<CompileFile command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_BarthaRobertDezso_Aut1B"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSA_BarthaRobertDezso_Aut1B/fast">
@@ -43,36 +42,35 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
-					<Add directory="c:\oji\codeblocks\mingw64telepitett\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_BarthaRobertDezso_Aut1B/fast"/>
-					<CompileFile command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_BarthaRobertDezso_Aut1B/fast"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/OJI/Codeblocks/mingw64telepitett/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
