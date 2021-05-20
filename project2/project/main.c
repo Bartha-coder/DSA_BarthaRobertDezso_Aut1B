@@ -45,7 +45,6 @@ int main() {
     printf("\n");
     printf("%i",Legnagyobb(tree));
 
-
     return 0;
 
 }
