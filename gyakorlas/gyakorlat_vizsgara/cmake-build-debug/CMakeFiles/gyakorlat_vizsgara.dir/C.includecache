@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/gyakorlas/gyakorlat_vizsgara/gyak1.h
+
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/gyakorlas/gyakorlat_vizsgara/main.c
+stdio.h
+-
+gyak1.h
+C:/Users/Dell/Desktop/Egyetem/Tantargyak/Adatszerkezetek_es_algoritmusok/DSA_BarthaRobertDezso_Aut1B/gyakorlas/gyakorlat_vizsgara/gyak1.h
+
