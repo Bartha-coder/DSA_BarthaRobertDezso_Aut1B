@@ -1,9 +1,13 @@
 //
-// Created by Bartha on 2021. 05. 20..
+// Created by Bartha on 2021. 06. 13..
 //
 
-#include "hasito_tabla.h"
-//hasito tablazat
+#include <malloc.h>
+#include <stdio.h>
+#include "hasito.h"
+
+
+//hasito tabla
 void beszur(int k, int *T, int m) // k kulcsu elemet beszur
 {
     int j,i=0;
@@ -28,7 +32,7 @@ int *create(int m){
         ///ha -1 akkor van hely,tehat ures
         t[i]=-1;///minden pozicio ures
     }
-    //teszteles
+   ///teszteles
     return t;
 }
 

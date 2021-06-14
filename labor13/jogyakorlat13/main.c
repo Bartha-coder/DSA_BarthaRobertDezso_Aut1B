@@ -13,14 +13,13 @@ for(int i=0;i<n;++i){
     beszur(x,t,m);
 }
 print(t,m);
-printf("Keresett elem:");
+printf("\nKeresett elem:");
 scanf("%i",&k);
 clock_t start = clock();
-
 poz=keres(k,t,m);
-
 clock_t end = clock();
-printf("lf",(double)(end - start)/CLOCKS_PER_SEC);
-printf("Elem pozicioja: %i",poz);
+double time_spent = (double)(end - start) / CLOCKS_PER_SEC;
+printf("%lf",time_spent);
+printf("\nElem pozicioja: %i",poz);
 return 0;
 }
